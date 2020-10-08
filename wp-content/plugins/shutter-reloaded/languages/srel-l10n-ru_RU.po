@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shutter Reloaded\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-06 03:28+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kalinin Ivan <lecactus@lecactus.ru>\n"
+"Language-Team: Lecactus <lecactus@lecactus.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: X:\\web\\wordpress-Modifications\\wordpress\\shutter-reloaded\n"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Previous"
+msgstr "Назад"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Next"
+msgstr "Вперед"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Close"
+msgstr "Закрыть"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Full Size"
+msgstr "Полный размер"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Fit to Screen"
+msgstr "Подстроить под размер экрана"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Image"
+msgstr "Изображение"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "of"
+msgstr "из"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:92
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:193
+msgid "Permission denied"
+msgstr "Отказ в доступе"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:256
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:282
+msgid "Please enter valid post ID."
+msgstr "Пожалуйста, введите корректный ID записи."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:269
+msgid "This post ID is not currently excluded."
+msgstr "ID этой записи в настоящее время не исключен."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:295
+msgid "This post ID is not currently included."
+msgstr "ID этой записи в настоящее время включен."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:305
+msgid "Options saved!"
+msgstr "Настройки сохранены!"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:309
+msgid "Shutter Reloaded Options"
+msgstr "Настройки Shutter Reloaded"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:312
+msgid "Hide Help"
+msgstr "Скрыть помощь"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:313
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:314
+msgid "Show Help"
+msgstr "Показать помощь"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:317
+msgid "Setup and Usage"
+msgstr "Настройка и Использование"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:318
+msgid "Shutter is activated by <strong>the link</strong> pointing to the image you want to display, with or without a thumbnail (text links work too). The activation class and the title have to be set on that link."
+msgstr "Shutter активируется при помощи <strong>ссылки</strong> указывающей на изображение, которое нужно отобразить, с эскизом и без него (текстовые ссылки на изображения также работают). Класс активации и заголовок должны быть установлены на эту ссылку."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:319
+msgid "To take full control of Shutter's activation and to make multiple image sets on the same page, you will need to add the <strong>class=&quot;shutter&quot;</strong> or <strong>&quot;shutterset&quot;</strong> or <strong>&quot;shutterset_setname&quot;</strong> to your links in &quot;Code&quot; view on the Write/Edit Post page."
+msgstr "Чтобы иметь полный контроль над активацией Shutter'а и создавать наборы изображений на одной странице, вы должны добавить класс <strong>class=&quot;shutter&quot;</strong> или <strong>&quot;shutterset&quot;</strong> или <strong>&quot;shutterset_setname&quot;</strong> в ваши ссылки на закладке &quot;КОД&quot; на странице создания записи/страницы."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:320
+msgid "To add caption to the images, set the <strong>title=&quot;...&quot;</strong> attribute of the <strong>links</strong> pointing to them."
+msgstr "Чтобы добавлять заголовки изображениям, установите атрибут <strong>title=&quot;...&quot;</strong> <strong>ссылки</strong> связанной с ним."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:321
+msgid "If you want to use image sets, you will need to add <strong>class=&quot;shutterset&quot;</strong> to all <strong>links</strong> that point to the images for that set. If you want to apply css style to the links, you can add second class, like this: class=&quot;shutterset myClass&quot;, but &quot;shutterset&quot; should be first."
+msgstr "Если вы хотите использовать наборы изображений, вы должны добавить класс <strong>class=&quot;shutterset&quot;</strong> на все <strong>ссылки</strong> связанные с изображениями набора. Если вы хотите применить стиль css на ссылки, вы должны добавить второй класс, например такой: class=&quot;shutterset myClass&quot;, но &quot;shutterset&quot; должен быть перед ним."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:322
+msgid "Adding class=&quot;shutterset&quot; will also trigger activation (for the first activation option). There is no need to add both &quot;shutter&quot; and &quot;shutterset&quot;."
+msgstr "Добавление класса class=&quot;shutterset&quot; также будет вызывать активацию (для первой опции активации). Не нужно добавлять оба класса &quot;shutter&quot; и &quot;shutterset&quot;."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:323
+msgid "To make more than one set per page, use <strong>class=&quot;shutterset_setname&quot;.</strong> The underscore is required and setname can be any short ASCII word and/or number (different for each set)."
+msgstr "Чтобы добавить более чем один набор на страницу, используйте класс <strong>class=&quot;shutterset_setname&quot;.</strong> Требуется подчеркнуть и setname должн быть коротким словом из симоволов ASCII и или цифр (различные для каждого набора)."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:324
+msgid "You can use the &quot;Activate shutter on all image links&quot; and also make sets by adding class=&quot;shutterset&quot; or class=&quot;shutterset_setname&quot; or rel=&quot;lightbox[...]&quot; to some of the image links."
+msgstr "Вы можете использовать &quot;Активировать shutter на все ссылки изображений&quot; и также использовать наборы, добавляя класс class=&quot;shutterset&quot; или class=&quot;shutterset_setname&quot; или rel=&quot;lightbox[...]&quot; к нескольким ссылкам изображений."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:328
+msgid "You can add Shutter Reloaded to your site in five different ways:"
+msgstr "Вы можете добавить Shutter Reloaded на ваш сайт одним из пяти различных способов:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:333
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:337
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:341
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:345
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:349
+msgid "Active: "
+msgstr "Активировать:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:334
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:338
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:342
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:346
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:350
+msgid "Activate"
+msgstr "Активировать"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:335
+msgid "Shutter on all image links with class=&quot;shutter&quot; or &quot;shutterset&quot; or &quot;shutterset_setname&quot;."
+msgstr "Shutter на все ссылки изображений с классом class=&quot;shutter&quot; или &quot;shutterset&quot; или &quot;shutterset_setname&quot;."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:339
+msgid "Shutter on all image links. Sets created with class=&quot;shutterset&quot;, &quot;shutterset_setname&quot; or rel=&quot;lightbox[...]&quot; will still work."
+msgstr "Shutter на все ссылки изображений. Наборы создаются с помощью классов class=&quot;shutterset&quot;, &quot;shutterset_setname&quot; или rel=&quot;lightbox[...]&quot; также работает."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:343
+msgid "Shutter on all image links and automatically make image sets for each Post/Page."
+msgstr "Shutter на все ссылки изображений и автоматически создать наборы на каждую запись/страницу."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:347
+msgid "Shutter on all image links on specific page(s)."
+msgstr "Shutter на все ссылки изображений на заданных страницах."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:351
+msgid "Shutter on all image links and use LightBox style (rel=&quot;lightbox[...]&quot;) activation and sets."
+msgstr "Shutter на все ссылки изображений и использовать стиль LightBox  (rel=&quot;lightbox[...]&quot;) для активации и наборов."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:362
+msgid "Shutter is activated for all links pointing to an image."
+msgstr "Shutter активирован для всех ссылок, которые ведут на изображения."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:363
+msgid "Shutter is activated for all links pointing to an image and will create different image set for each Post/Page."
+msgstr "Shutter активирован для всех ссылок, которые ведут на изображения и создаст различные наборы изображений для каждой записи/страницы."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:363
+msgid "This option is most suitable if you display several Posts on your home page and want to have different image set for each Post. It adds shutter's activation class at runtime and doesn't modify the html."
+msgstr "Этот вариант является наиболее подходящим, если вы показываете несколько записей на вашей домашней странице и хотите иметь различные наборы изображений для каждой записи. Это добавит класс активации shutter во время выполнения скрипта, не изменяя html."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:365
+msgid "Excluded Posts or Pages (by ID):"
+msgstr "Исключить записи и страницы (по ID):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:371
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:411
+msgid "[none]"
+msgstr "[нет]"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:377
+msgid "Add Excluded ID"
+msgstr "Добавить исключаемые ID"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:378
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:418
+msgid "Please enter the Page/Post ID that you want to add to this list."
+msgstr "Пожалуйста, введите ID записи/страницы, которую вы хотите добавить в список."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:380
+msgid "Remove Excluded ID"
+msgstr "Удалить исключаемый ID"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:381
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:420
+msgid "Please enter the Page/Post ID that you want to remove from this list."
+msgstr "Пожалуйста, введите ID записи/страницы, которую вы хотите удалить из списка."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:383
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:422
+msgid "Please enter the ID for the post/page you want to exclude. You can see it in your browser's status bar(at the bottom of the window) when hovering over the name at the <a href=\"edit-pages.php\">Manage Pages</a> or the <a href=\"edit.php\">Manage Posts</a> page."
+msgstr "Пожалуйста, введите ID записи/страницы, в которой вы хотите исключить действие плагина. Вы можете посмотреть их на страние <a href=\"edit-pages.php\">Управление страницами</a> или <a href=\"edit.php\">Управление записями</a>."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:393
+msgid "Shutter is activated for all links pointing to an image that have class = &quot;shutter&quot;, &quot;shutterset&quot; or &quot;shutterset_setname&quot;"
+msgstr "Shutter активирован для всех ссылок, связанных с изображениями, которые имеют класс class = &quot;shutter&quot;, &quot;shutterset&quot; или &quot;shutterset_setname&quot;"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:395
+msgid "Class = &quot;shutter&quot; will display a single image, class = &quot;shutterset&quot; will create a single set for all images and class=&quot;shutterset_setname&quot;, where setname is a short ASCII word and/or number, will create multiple sets on the same page."
+msgstr "Class = &quot;shutter&quot; отобразит одиночное изображение, class = &quot;shutterset&quot; создаст один набор всех изображений и class=&quot;shutterset_setname&quot;, где setname - это короткое слово из ASCII символов и/или цифр, создаст несколько наборов изображений на одной странице."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:404
+msgid "Shutter is activated for the following Posts and Pages (by ID):"
+msgstr "Shutter активирован для следующих записей и страниц (по ID):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:417
+msgid "Add ID"
+msgstr "Добавить ID"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:419
+msgid "Remove ID"
+msgstr "Удалить ID"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:431
+msgid "Shutter uses Lightbox style activation."
+msgstr "Shutter использует стиль активации Lightbox."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:433
+msgid "Shutter is activated for all links pointing to an image, that have rel=&quot;lightbox&quot; or rel=&quot;lightbox[...]&quot;. To make sets of images, you will have to add rel=&quot;lightbox[abc]&quot;, where &quot;abc&quot; can be any short ASCII word and/or number."
+msgstr "Shutter активирован для всех ссылок, которые указывают на изображения, имеющих rel=&quot;lightbox&quot; или rel=&quot;lightbox[...]&quot;. Чтобы создать наборы изображений, вы должны добавить rel=&quot;lightbox[abc]&quot;, где &quot;abc&quot; может быть любым коротким словом ASCII и/или цифрами."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:444
+msgid "Customization"
+msgstr "Настройка внешнего вида"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:450
+msgid "Shutter color (default 000000):"
+msgstr "Цвет Shutter'а (по-умолчанию 000000):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:450
+msgid "Please enter valid HTML color codes, from 000000 to FFFFFF."
+msgstr "Пожалуйста введите корректные коды цветов HTML, от 000000 до FFFFFF."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:457
+msgid "Shutter opacity (default 80):"
+msgstr "Непрозрачность Shutter'а (по-умолчанию 80):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:457
+msgid "Enter a number between 1 (see-through) and 99 (solid color)."
+msgstr "Введите число между 1 (прозрачно) и 99 (насыщенный цвет)."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:464
+msgid "Caption text color (default FFFFFF):"
+msgstr "Цвет текста заголовка (по-умолчанию FFFFFF):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:471
+msgid "Menubar color (default 3E3E3E):"
+msgstr "Цвет панели меню (по-умолчанию 3E3E3E):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:478
+msgid "Show images count for sets (Image 1 of ...):"
+msgstr "Показывать счетчик изображений в наборе (Изображение 1 из ...):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:484
+msgid "Images count color (default 999999):"
+msgstr "Цвет счетчика изображений (по-умолчанию 999999):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:491
+msgid "Text buttons (instead of images):"
+msgstr "Текстовые кнопки (вместо изображений):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:497
+msgid "Text buttons color (default CCCCCC):"
+msgstr "Цвет текстовых кнопок (по-умолчанию CCCCCC):"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:504
+msgid "Open the images in full size:"
+msgstr "Открывать все изображения в полном размере:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:510
+msgid "Alternate loading (select if another script is preventing Shutter from loading properly):"
+msgstr "Альтернативная загрузка (выберите, если другой скрипт мешает нормальной загрузке SHUTTER)"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:516
+msgid "In the default WordPress Gallery open all images with Shutter:"
+msgstr "По умолчанию, Галерея WordPress открывает все изображения с Shutter:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:517
+msgid "Limit the thumbnails width to ... pixels:"
+msgstr "Ограничить миниатюры по ширине до ... пикселей:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:518
+msgid "Arrange the thumbnails in ... columns:"
+msgstr "Расположить миниатюры в ... колонок:"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:527
+msgid "To restore the defaults, delete the current value(s) and submit the form."
+msgstr "Чтобы восстановить значения по умолчанию, удалите текущие значения и сохраните настройки."
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:528
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+#: X:\web\wordpress-Modifications\wordpress\shutter-reloaded/shutter-reloaded.php:538
+msgid "Shutter Reloaded"
+msgstr "Shutter Reloaded"
+
+#~ msgid ""
+#~ "Please enter the ID for the post/page for use with shutter. You can see "
+#~ "it at the <a href=\"edit-pages.php\">Manage Pages</a> or the <a href="
+#~ "\"edit.php\">Manage Posts</a> page."
+#~ msgstr ""
+#~ "Пожалуйста, введите ID записей/страниц, которые вы хотите использовать с "
+#~ "shutter-ом. Вы можете посмотреть их на странице <a href=\"edit-pages.php"
+#~ "\">Управление страницами</a> и <a href=\"edit.php\">Управление записями</"
+#~ "a>."
+
