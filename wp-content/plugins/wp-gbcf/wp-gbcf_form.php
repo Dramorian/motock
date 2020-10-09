@@ -1271,6 +1271,7 @@ if(!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,6})"
      $gb_content = stripslashes(strip_tags(trim($gb_content)));
      $gb_ccmail = stripslashes(strip_tags(trim($gb_ccmail)));
 
+     save_order();
 // The mail function helps, let's send this stuff
      mail("$gb_email_address", "$gb_website_name От: $gbname", $gb_content, $gb_email_header);
 
@@ -1429,4 +1430,20 @@ function inc_spam_count(){
 update_option('spamCount',$count);
 }
 // That's it folks. Man this is a big script
+
+function save_order() {
+    global $wpdb;
+    global  $orders_table_name;
+
+    $orderData =  array(
+           'gbname' => $_POST['gbname'] ? : '',
+           'email' => $_POST['email'] ? : '',
+           'phone' => $_POST['phone'] ? : '',
+           'url' => $_POST['url'] ? : '',
+           'shipping' => $_POST['reason2'] ? : '',
+           'payment' => $_POST['reason']  ? : '',
+           'message' => $_POST['message'] ? : ''
+    );
+    $wpdb->insert($orders_table_name,array('date' =>current_time('mysql'), 'content' => json_encode($orderData)));
+}
 ?>
